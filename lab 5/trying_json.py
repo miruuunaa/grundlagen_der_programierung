@@ -1,21 +1,21 @@
 import json
 
-# x = '{"name":"John", "age":30}'
+# x = '{"name":"Paul", "age":20}'
 #
 # y = json.loads(x)
 #
 # print(y['age'])
 
 x = {
-  "name": "John",
-  "age": 30,
+  "name": "Paul",
+  "age": 20,
   "married": True,
   "divorced": False,
-  "children": ("Ann","Billy"),
+  "children": ("Anne","Andrew")
   "pets": None,
   "cars": [
-    {"model": "BMW 230", "mpg": 27.5},
-    {"model": "Ford Edge", "mpg": 24.1}
+    {"model": "BMW M5", "mpg": 27.5},
+    {"model": "Ford Focus", "mpg": 24.1}
   ]
 }
 
